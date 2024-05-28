@@ -33,7 +33,6 @@ conda activate
 GENOME=cAcu
 RUNTYPE=${GENOME}_RM
 DIR=/lustre/scratch/aosmansk/new_croc_assemblies/repeatmasker/$RUNTYPE
-#LIBRARYPATH=/lustre/scratch/aosmansk/RayLib-Masking/200Mammal-RayLib-20210618/final_mammal_library_06221021.fa
 GENOMEPATH=/lustre/scratch/aosmansk/new_croc_assemblies/repeatmasker/$RUNTYPE
 
 # If GenomeAbbreviation is greater than 10 characters, will cause trouble
@@ -52,7 +51,6 @@ GENOMEPATH=/lustre/scratch/aosmansk/new_croc_assemblies/repeatmasker/$RUNTYPE
 #gunzip -c $GENOME".fa.gz" > $GENOME".fa"
 #/lustre/work/daray/software/faToTwoBit ${GENOME}.fa ${GENOME}.2bit
 #creates a symbolic link to the 200 mammals TE library file so it can be used.
-#cp /lustre/scratch/aosmansk/250mammals_RM_v2/final_mammal_library.fa .
 
 #Use sge_clusterrun.py to generate all batches needed to run RepeatMasker and the doLift.sh to complile the results.
 python /lustre/scratch/aosmansk/new_croc_assemblies/repeatmasker/slurm_clusterrun_time48.py \
