@@ -47,5 +47,5 @@ for SCORTHO in $(cat /lustre/scratch/aosmansk/clean_out/ABBA-BABA/SCORTHOS); \
 
 
 #Shoot off the ABBA-BABA script
-for i in $(cat ../SCORTHOS); do python /lustre/scratch/aosmansk/clean_out/ABBA-BABA/ABBA-BABA_counts.py ./alignments/"${QUAD}.SCORTHO.${SCORTHO}.aln.SL.fas" >> "${QUAD}.ABBA-BABA.txt"; done
+for SCORTHO in $(cat ../SCORTHOS); do python /lustre/scratch/aosmansk/clean_out/ABBA-BABA/ABBA-BABA_counts.py ./alignments/"${QUAD}.SCORTHO.${SCORTHO}.aln.SL.fas" >> "${QUAD}.ABBA-BABA.txt"; done
 
