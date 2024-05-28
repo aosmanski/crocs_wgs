@@ -5,7 +5,7 @@
 #SBATCH --partition=nocona
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH -a 1-27
+#SBATCH -a 1-25
 #SBATCH --mem=4GB
 
 ## Initialize conda
