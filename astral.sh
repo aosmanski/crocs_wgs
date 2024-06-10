@@ -17,4 +17,4 @@ conda activate aster
 
 cd /lustre/scratch/aosmansk/clean_out/croc_phylogeny/aster
 
-astral -t 32 -u 3 -i all_bestTrees_cleaned.nwk -o astral.out.nwk
+astral-hybrid -t 32 -u 1 --mode 1 -S -i astralIN.bestTrees.NOscorthoID.support.nwk -o croc.support.astral.nwk
