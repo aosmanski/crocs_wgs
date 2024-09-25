@@ -1,0 +1,13 @@
+cPor    cPor
+cAcu    cAcu
+cInt    cInt
+cJoh    cJoh
+cMin    cMin
+cMor    cMor
+cNil    cNil
+cNov    cNov
+cPal    cPal
+cRho    cRho
+cSia    cSia
+mCat    Outgroup
+oTet    Outgroup
